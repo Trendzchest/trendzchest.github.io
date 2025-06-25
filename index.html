@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrendzChest</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <h1>TrendzChest</h1>
+    <p>Discover Trending Gadgets & Fashion Picks Curated Just for You</p>
+    <button id="toggle-theme">Toggle Theme</button>
+  </header>
+
+  <main>
+    <section class="product-section">
+      <h2>Featured Gadgets</h2>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product 1" />
+        <h3>Smartwatch XYZ</h3>
+        <p>₹1,999 – Long battery life</p>
+        <a href="#" class="buy-btn">Buy Now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>This site contains affiliate links. We may earn a commission at no extra cost to you.</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('toggle-theme');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('light-theme');
+    });
+  </script>
+</body>
+</html>
